@@ -9,8 +9,17 @@
 - AWS S3
 
 ## インフラ
-AWSに期間限定で公開(現在は閉鎖)
-### ER図
+AWSに期間限定で公開(コストがかかる割にユーザーが少ないので現在は閉鎖)。
+GoのapiはECSに、ReactはCloudFrontとS3へデプロイ。
+
+- VPC
+- ECS
+- ECR
+- ALB
+- CloudFront
+- S3
+- Route53
+- ACM
 
 ## アプリ画像
 - トップ画面
